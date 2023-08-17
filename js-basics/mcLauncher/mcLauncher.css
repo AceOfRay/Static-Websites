@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:white;
+    font-family: staatliches;
+    font-weight: lighter;
+    font-size:2vh;
+}
+
+
+
+.user {
+    display: flex;
+    flex-direction: row;
+}
+.sidebarLinks > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    padding: 0.5vh;
+    margin: .5vh;
+}
+.sidebarLinks > div > img{
+    padding:10px;
+}
+
+.whole {
+    background-color: rgb(29, 29, 29);
+    display:flex;
+    flex-direction: row;
+}
+.bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+.navContainer > a {
+    display: flexbox;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 2.2vh;
+    margin: 1vh;
+    padding: 1vh;
+}
+.navContainer {
+    padding: 1vh;
+}
+.newspaper {
+    width:60px;
+}
+.maindrop {
+    width:100%;
+    align-items: center;
+    
+}

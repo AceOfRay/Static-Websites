@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login</title>
+    <style>
+        /* Flexbox container for the rules div */
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh; /* Optional: Makes sure the container takes up the full viewport height */
+        }
+
+        .rules {
+            padding: 10px;
+            background-color: #f2f2f2;
+            border: 1px solid #ccc;
+            width: 300px;
+            margin-bottom: 20px; /* Optional: Add some space between the two pairs */
+        }
+
+        /* Optional: Apply some styles to the labels and inputs */
+        .usr,
+        .pswd {
+            display: block;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="rules">
+            <h3 class="instructions">Input Username and Password</h3>
+            <label class="usr" for="username">Username:</label>
+            <input type="text" name="username">
+        </div>
+
+        <div class="rules">
+            <label class="pswd" for="password">Password:</label>
+            <input type="password" name="password">
+        </div>
+    </div>
+</body>
+
+</html>

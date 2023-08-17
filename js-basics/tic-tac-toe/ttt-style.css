@@ -1,0 +1,64 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color:#353434;
+    color: white;
+
+}
+.container {
+    height:100%;
+    padding-top:15rem;
+    height:30rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+
+.message {
+    font-family:'Aclonica';
+    font-size:22px;
+    background-color: transparent;
+}
+
+#game-board {
+    display: flex;
+    width:450px;
+    flex-wrap:wrap;
+    margin:40px;
+}
+.box {
+    height:150px;
+    width:150px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-right: solid white;
+    border-bottom: solid white;
+    cursor: pointer;
+    z-index: 99;
+    color: white;
+    font-family:'Aclonica';
+    font-size:22px;
+
+}
+.box:nth-child(3n) {
+    border-right:none
+}
+.box:nth-child(6) ~ .box {
+    border-bottom:none;
+}
+.restart_btn {
+    font-family:'Aclonica';
+    font-size:22px;
+    margin:15px;
+    padding:10px;
+    background-color: rgb(83, 83, 83);
+    border-radius: 10px;
+}
+#result {
+    font-family:'Aclonica';
+    font-size: 1.2rem;
+}

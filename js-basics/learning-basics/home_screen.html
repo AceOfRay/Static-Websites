@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        .title_bar {
+            color: aliceblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(0, 0, 88);
+
+        }
+
+        .ray_pic {
+            padding: 20px;
+            border-radius: 55px;
+        }
+
+        .bars {
+            width: 30%;
+            display: flex;
+            float: left;
+        }
+
+        .side_bar {
+            width: 50%;
+            background-color: rgb(125, 181, 255);
+            border-radius: 10%
+        }
+
+        .parallel_side {
+            width: 50%;
+            background-color: aquamarine;
+
+        }
+
+        .aside {
+            width: 30%;
+            background-color: rgb(172, 172, 172);
+            text-align: center;
+            float: right;
+        }
+        .footer {
+            text-align: center;
+            width: 100%;
+        }
+
+        .navbar {
+            text-align: right;
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <section class="title_bar">
+        <div class="left_side">
+            <img class="ray_pic" src="js-basics/images/me.JPG" alt="image of Ray" width="110px" height="180px">
+        </div>
+        <div class="right_side">
+            <h1 class="welcome">Welcome To Ray's Webpage</h1>
+            <h4 class="here">Here you can find information about all aspects of my life</h4>
+        </div>
+    </section>
+
+
+    <aside class="aside">this is aside</aside>
+
+    <nav class="navbar">
+        <h2>this is the nav bar</h2>
+    </nav>
+
+    <div class="bars">
+        <section class="side_bar">
+            <h2>this is to be a side bar type thing</h2>
+            <h2>so if i keep doing this it will stay on the side</h2>
+        </section>
+        <section class="parallel_side">
+            <h2>this is a parallel bar</h2>
+        </section>
+    </div>
+
+    <div>
+        <article>
+           this is the article 
+        </article>
+
+    </div>
+
+    <code>
+        for i in range(len(list)):
+            list.append(i)
+    </code>
+    <footer>
+        <h1 class="footer">This is the footer</h1>
+    </footer>
+</body>
+
+</html>
